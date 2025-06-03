@@ -13,13 +13,13 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: posts
-      name: Posts
-      title: Posts
-      url: /posts
-      weight: 1
+# Menus:
+#   main:
+#     - identifier: posts
+#       name: Posts
+#       title: Posts
+#       url: /posts
+#       weight: 1
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
