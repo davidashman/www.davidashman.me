@@ -43,6 +43,7 @@ params:
   description: Text about my cool site
   # staticPath: /static
   favicon: "/favicon.png"
+  customCSS: true
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -149,16 +150,20 @@ params:
       Though my focus is now on leading technology organizations, I remain highly technical and hands on.  Continuing to invest in my technical knowledge allows me to deliver a unique blend of techincal solutions and customer-focused outcomes.
     skills:
       enable: true
-      title: "Here are a few important and relevant skills I bring to my work:"
+      title: "I have extensive experience across a broad array of technical and leadership skills to drive growth:"
       items:
         - Strategic Planning
-        - Acquisition Integration
-        - Information Security
-        - Cloud Applications
-        - DevOps
+        - AI/ML Tooling
         - Agile Methodologies
+        - Acquisition Integration
         - Software Architecture
-        - Infrastructure and Test Automation
+        - DevOps and CI/CD
+        - Information Security
+        - SaaS Architectures
+        - Cloud Automation
+        - Team Topologies
+        - Test Automation
+        - Cloud Cost Optimization
 
   #Contact
   contact:
