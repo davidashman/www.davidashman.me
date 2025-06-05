@@ -132,6 +132,9 @@ params:
               </svg>
           </a>
       </span>
+      <span>
+        <a href="https://github.com/davidashman/resume/releases/latest/download/David_Ashman_CV.pdf" class="btn" download="">Download CV</a>
+      </span>  
     image: /images/2025-headshot.jpeg
     bottomImage:
       enable: true
@@ -171,7 +174,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:david@ashman.com
+    btnLink: mailto:david@davidashman.me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
