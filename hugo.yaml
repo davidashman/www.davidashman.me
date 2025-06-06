@@ -158,16 +158,14 @@ params:
       items:
         - Strategic Planning
         - AI/ML Tooling
-        - Agile Methodologies
         - Acquisition Integration
         - Software Architecture
+        - Agile Methodologies
         - DevOps and CI/CD
         - Information Security
-        - SaaS Architectures
         - Cloud Automation
         - Team Topologies
         - Test Automation
-        - Cloud Cost Optimization
 
   #Contact
   contact:

@@ -1,6 +1,6 @@
 
 #about ul {
-    grid-template-columns: repeat(3, minmax(140px, 260px));
+    grid-template-columns: repeat(2, minmax(140px, 320px));
     gap: 0px 5px;
 }
 
