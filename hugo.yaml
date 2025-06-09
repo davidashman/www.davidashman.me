@@ -13,13 +13,18 @@ markup:
     renderer:
       unsafe: true
 
-# Menus:
-#   main:
-#     - identifier: posts
-#       name: Posts
-#       title: Posts
-#       url: /posts
-#       weight: 1
+Menus:
+  main:
+    - identifier: fcto
+      name: Fractional CTO
+      title: Fractional CTO
+      url: /fcto
+      weight: 1
+    - identifier: posts
+      name: Posts
+      title: Posts
+      url: /posts
+      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -198,9 +203,9 @@ params:
 
   # Single pages like blog and post
   singlePages:
-    socialShare: true
+    socialShare: false
     readTime:
-      enable: true
+      enable: false
       content: "min read"
     scrollprogress:
       enable: true
