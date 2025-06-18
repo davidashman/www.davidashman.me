@@ -13,18 +13,18 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: fcto
-      name: Fractional CTO
-      title: Fractional CTO
-      url: /fcto
-      weight: 1
-    - identifier: posts
-      name: Posts
-      title: Posts
-      url: /posts
-      weight: 2
+# Menus:
+#   main:
+#     - identifier: fcto
+#       name: Fractional CTO
+#       title: Fractional CTO
+#       url: /fcto
+#       weight: 1
+#     - identifier: posts
+#       name: Posts
+#       title: Posts
+#       url: /posts
+#       weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
