@@ -13,6 +13,12 @@
 
 {{ define "main" }}
 {{- partial "sections/hero/index.html" . -}}
+
+<div class="scroll-down-arrow">
+    <a href="#about">
+        <i class="fas fa-chevron-down"></i>
+    </a>
+</div>
 {{- partial "sections/about.html" . -}}
 {{- partial "sections/experience.html" . -}}
 {{- partial "sections/education.html" . -}}

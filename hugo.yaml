@@ -95,6 +95,7 @@ params:
       secondaryBackgroundColor: "#212529"
       primaryColor: "#ffffff"
       secondaryColor: "#212529"
+      accentColor: "#888"
 
   # If you want to customize the menu, you can change it here
   navbar:
