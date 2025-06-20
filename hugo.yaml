@@ -1,7 +1,6 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: David Ashman
-theme: hugo-profile
 
 enableRobotsTXT: true
 
@@ -10,8 +9,16 @@ pagination:
 
 markup:
   goldmark:
+    parser:
+      attribute:
+        block: true
     renderer:
       unsafe: true
+
+module:
+  imports:
+    - path: github.com/martignoni/hugo-notice
+    - path: hugo-profile
 
 # Menus:
 #   main:
@@ -192,7 +199,7 @@ params:
       path: "posts"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/davidashman

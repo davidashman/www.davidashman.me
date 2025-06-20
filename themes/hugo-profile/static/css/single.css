@@ -71,6 +71,18 @@
     background-color: var(--secondary-color) !important;
 }
 
+#single .page-content blockquote.note {
+    border-left: 6px solid #0001EE !important;
+}
+
+#single .page-content blockquote.warn {
+    border-left: 6px solid #FFBB01 !important;
+}
+
+#single .page-content blockquote.danger {
+    border-left: 6px solid #EE1F00 !important;
+}
+
 /* table */
 #single .page-content table {
     width: auto;
