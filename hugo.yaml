@@ -199,7 +199,7 @@ params:
       path: "posts"
       count: 3
       title: Recent Posts
-      enable: false
+      enable: true
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/davidashman
