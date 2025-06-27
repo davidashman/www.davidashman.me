@@ -147,7 +147,7 @@ params:
           </a>
       </span>
       <span>
-        <a href="https://github.com/davidashman/resume/releases/latest/download/David_Ashman_CV.pdf" class="btn" download="">Download CV</a>
+        <a href="https://www.davidashman.me/resume" class="btn" download="">Download Resume</a>
       </span>  
     image: /images/2025-headshot.jpeg
     bottomImage:
