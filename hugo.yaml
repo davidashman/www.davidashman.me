@@ -7,6 +7,7 @@ enableRobotsTXT: true
 pagination:
   pagerSize: 3
 
+theme: hugo-profile
 markup:
   goldmark:
     parser:
@@ -14,11 +15,6 @@ markup:
         block: true
     renderer:
       unsafe: true
-
-module:
-  imports:
-    - path: github.com/martignoni/hugo-notice
-    - path: hugo-profile
 
 # Menus:
 #   main:
