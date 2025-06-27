@@ -131,25 +131,67 @@ params:
       high-performing teams, with proven results leading growth and innovation for teams, products and organizations.
       
       <br>
-      <span class="px-1" data-cal-link="davidashman/meeting" data-cal-namespace="meeting" data-cal-config='{"layout":"month_view","theme":"dark"}'>
+      <span class="px-1">
           <a href="/calendar" aria-label="calendar">
-              <svg width="2.4em" height="2.4em" viewBox="-1.2 -1.2 26.40 26.40" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-1.2" y="-1.2" width="26.40" height="26.40" rx="3.96" fill="#ffffff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10H4M20 10V10.75M4 10V19C4 20.1046 4.89543 21 6 21H12M8 3V7M16 3V7" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> <path d="M17.5356 14V17.5355M17.5356 21.0711V17.5355M17.5356 17.5355L21.0712 17.5355M17.5356 17.5355H14.0001" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+              <svg role="img" width="40px" height="40px" viewBox="-1.2 -1.2 26.40 26.40" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000">
+                <title>Schedule a meeting</title>
+                <g id="SVGRepo_bgCarrier" stroke-width="0">
+                  <rect x="-1.2" y="-1.2" width="26.40" height="26.40" rx="3.96" fill="#ffffff" strokewidth="0"></rect>
+                </g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier"> 
+                  <path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10H4M20 10V10.75M4 10V19C4 20.1046 4.89543 21 6 21H12M8 3V7M16 3V7" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> 
+                  <path d="M17.5356 14V17.5355M17.5356 21.0711V17.5355M17.5356 17.5355L21.0712 17.5355M17.5356 17.5355H14.0001" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> 
+                </g>
+              </svg>
+          </a>
+      </span>
+      <span class="px-1">
+          <a href="/resume" aria-label="resume">
+              <svg fill="#000000" role="img" width="40px" height="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
+                  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-78.51 -78.51 549.55 549.55" xml:space="preserve" stroke="#000000">
+                <title>Download resume</title>
+                <g id="SVGRepo_bgCarrier" stroke-width="0">
+                  <rect x="-78.51" y="-78.51" width="549.55" height="549.55" rx="82.4325" fill="#ffffff" strokewidth="0"></rect>
+                </g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier"> 
+                  <g>
+                    <g> 
+                      <path d="M292.396,324.849H99.879c-6.012,0-10.925,4.848-10.925,10.925c0,6.012,4.849,10.925,10.925,10.925h192.582 c6.012,0,10.925-4.849,10.925-10.925C303.321,329.697,298.473,324.849,292.396,324.849z"></path> 
+                    </g> 
+                  </g> 
+                  <g> 
+                    <g> 
+                      <path d="M292.396,277.01H99.879c-6.012,0-10.925,4.848-10.925,10.925c0,6.012,4.849,10.925,10.925,10.925h192.582 c6.012,0,10.925-4.849,10.925-10.925C303.321,281.859,298.473,277.01,292.396,277.01z"></path> 
+                    </g> 
+                  </g> 
+                  <g> 
+                    <g> 
+                      <path d="M196.137,45.834c-25.859,0-46.998,21.075-46.998,46.998c0,25.859,21.139,46.933,46.998,46.933 s46.998-21.075,46.998-46.998S221.996,45.834,196.137,45.834z M196.137,117.851c-13.77,0-25.083-11.313-25.083-25.083 c0-13.77,11.248-25.083,25.083-25.083s25.083,11.313,25.083,25.083C221.22,106.537,209.907,117.851,196.137,117.851z"></path> 
+                    </g> 
+                  </g> 
+                  <g> 
+                    <g> 
+                      <path d="M258.521,163.362c-39.887-15.515-84.752-15.515-124.638,0c-13.059,5.107-21.786,18.101-21.786,32.388v44.347 c-0.065,6.012,4.849,10.925,10.861,10.925h146.424c6.012,0,10.925-4.848,10.925-10.925V195.75 C280.307,181.463,271.58,168.469,258.521,163.362z M258.521,229.236H133.883v-33.422c0-5.301,3.168-10.214,7.887-12.024 c34.844-13.511,74.02-13.511,108.865,0c4.719,1.875,7.887,6.659,7.887,12.024V229.236z"></path> </g> </g> <g> <g> <path d="M313.083,0H131.491c-8.404,0-16.291,3.232-22.238,9.18L57.018,61.414c-5.947,5.948-9.18,13.834-9.18,22.238v277.333 c0,17.39,14.158,31.547,31.547,31.547h233.762c17.39,0,31.547-14.158,31.547-31.547V31.547C344.501,14.158,330.343,0,313.083,0z M112.032,37.236v27.022H85.01L112.032,37.236z M322.715,116.816h-40.598c-6.012,0-10.925,4.849-10.925,10.925 c0,6.012,4.848,10.925,10.925,10.925h40.598v19.394h-14.869c-6.012,0-10.925,4.848-10.925,10.925 c0,6.012,4.849,10.925,10.925,10.925h14.869v181.139c0,5.366-4.331,9.697-9.632,9.697H79.192c-5.301,0-9.632-4.331-9.632-9.632 V86.044h53.398c6.012,0,10.925-4.848,10.925-10.925V21.721h179.2c5.301,0,9.632,4.331,9.632,9.632V116.816z"></path> 
+                    </g> 
+                  </g> 
+                </g>
+              </svg>
           </a>
       </span>
       <span class="px-1">
           <a href="https://www.linkedin.com/in/davidbashman/" aria-label="linkedin">
-              <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+              <svg xmlns="http://www.w3.org/2000/svg" role="img" width='40px' height='40px' fill="#000" aria-label="LinkedIn"
                   viewBox="0 0 512 512">
-                  <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                  <title>LinkedIn</title>
+                  <rect width="512" height="512" fill="#fff" rx="15%" />
                   <circle cx="142" cy="138" r="37" />
-                  <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                  <path stroke="#000" stroke-width="66" d="M244 194v198M142 194v198" />
                   <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
               </svg>
           </a>
       </span>
-      <span>
-        <a href="https://www.davidashman.me/resume" class="btn" download="">Download Resume</a>
-      </span> 
     image: /images/2025-headshot.jpeg
     bottomImage:
       enable: true
