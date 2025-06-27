@@ -24,17 +24,24 @@
                     </div>
                     {{ else if or (.Site.Params.contact.email)  (.Site.Params.contact.btnLink) }}
                     <div class="text-center pt-3">
-                        <a 
-                            href='{{ if .Site.Params.contact.btnLink }}
-                                    {{ .Site.Params.contact.btnLink | default "#" }}
-                                  {{ else }}
-                                    mailto:{{ .Site.Params.contact.email }}
-                                  {{ end }}'
-                            target="_blank"
-                            class="btn"
-                        >
-                            {{ .Site.Params.contact.btnName | default "Get in Touch" }}
-                        </a>
+                        <span class="px-1">
+                            <a 
+                                href='{{ if .Site.Params.contact.btnLink }}
+                                        {{ .Site.Params.contact.btnLink | default "#" }}
+                                    {{ else }}
+                                        mailto:{{ .Site.Params.contact.email }}
+                                    {{ end }}'
+                                target="_blank"
+                            >
+                                <svg width="2.4em" height="2.4em" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="4.32" fill="#ffffff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <rect x="3" y="5" width="18" height="14" rx="2" stroke="#000000" stroke-width="2" stroke-linecap="round"></rect> </g></svg>
+                            </a>
+                        </span>
+
+                        <span class="px-1">
+                            <a href="/calendar" aria-label="calendar">
+                                <svg width="2.4em" height="2.4em" viewBox="-1.2 -1.2 26.40 26.40" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-1.2" y="-1.2" width="26.40" height="26.40" rx="3.96" fill="#ffffff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10H4M20 10V10.75M4 10V19C4 20.1046 4.89543 21 6 21H12M8 3V7M16 3V7" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> <path d="M17.5356 14V17.5355M17.5356 21.0711V17.5355M17.5356 17.5355L21.0712 17.5355M17.5356 17.5355H14.0001" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+                            </a>
+                        </span>
                     </div>
                     {{ end }}
                 </div>
