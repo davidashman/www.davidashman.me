@@ -166,7 +166,7 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    # title: "About Me"
     image: /images/David-speaking.png
     content: |-
       I began my career as a software engineer driven by a passion for building systems that solve real-world problems. Over the years, that passion evolved into a mission: to lead teams that create technology with purpose, scale, and impact.
